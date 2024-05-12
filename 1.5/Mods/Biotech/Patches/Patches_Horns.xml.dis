@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Horn layering ==================== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GeneDef[defName="Headbone_MiniHorns" or defName="Headbone_CenterHorn"]/graphicData</xpath>
+		<value>
+			<drawOffsetNorth>(0, -0.2, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.1, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
+		</value>
+	</Operation>
+
+</Patch>

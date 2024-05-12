@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Furskin De-Narrowing ==================== -->
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/HeadTypeDef[defName="Furskin_Narrow1"]</xpath>
+		<match Class="PatchOperationAttributeSet">
+			<xpath>/Defs/HeadTypeDef[defName="Furskin_Narrow1" or defName="Furskin_Narrow2" or defName="Furskin_Narrow3"]</xpath>
+			<attribute>ParentName</attribute>
+			<value>FurskinAverageBase</value>
+		</match>
+	</Operation>
+
+</Patch>

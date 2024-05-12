@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Hoopstone Ring ==================== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="HoopstoneRing"]/graphicData</xpath>
+		<value>
+			<drawOffset>(0, 0, 0.35)</drawOffset>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HoopstoneRing"]/graphicData/shadowData/offset</xpath>
+		<value>
+			<offset>(0, 0, 0)</offset>
+		</value>
+	</Operation>
+	
+</Patch>
