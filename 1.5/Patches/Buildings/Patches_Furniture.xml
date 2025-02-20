@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Shelf ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Shelf"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(2, 2)</drawSize>
+		</value>
+	</Operation>
+
+	<!-- ==================== Shelf Small ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ShelfSmall"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1, 1)</drawSize>
+		</value>
+	</Operation>
+
+	<!-- ==================== Bookcase ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Bookcase"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(2, 2)</drawSize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Bookcase"]/building/bookendGraphicEast/drawSize</xpath>
+		<value>
+			<drawSize>(2, 2)</drawSize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Bookcase"]/building/bookendGraphicNorth/drawSize</xpath>
+		<value>
+			<drawSize>(2, 2)</drawSize>
+		</value>
+	</Operation>
+
+	<!-- ==================== Bookcase Small ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BookcaseSmall"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1, 1)</drawSize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BookcaseSmall"]/building/bookendGraphicEast/drawSize</xpath>
+		<value>
+			<drawSize>(1, 1)</drawSize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BookcaseSmall"]/building/bookendGraphicNorth/drawSize</xpath>
+		<value>
+			<drawSize>(1, 1)</drawSize>
+		</value>
+	</Operation>
+
+</Patch>
