@@ -4,5 +4,6 @@
 		<li>/</li>
 		<li>1.5</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
+		<li IfModActive="phaneron.basic.storage">1.5/Mods/PhaneronsBasicStorage</li>
 	</v1.5>
 </loadFolders>

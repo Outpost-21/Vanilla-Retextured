@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Shelf ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AdaptiveStorage.GraphicsDef[targetDef="Shelf"]/graphics/li/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(2, 2)</drawSize>
+		</value>
+	</Operation>
+
+	<!-- ==================== Shelf Small ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AdaptiveStorage.GraphicsDef[targetDef="ShelfSmall"]/graphics/li/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(1, 1)</drawSize>
+		</value>
+	</Operation>
+
+</Patch>
