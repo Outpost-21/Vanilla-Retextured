@@ -5,7 +5,7 @@
 	<packageId>Neronix17.Retexture.Vanilla</packageId>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
-		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>Just a simple retexture of vanilla textures. Some have minor changes, some are completely redone. If you want another retexture to override this just place it lower (below, down, under, south) in the load order. There is no point in me listing all the things covered, it's really just every single texture I see and decide I want to be sharper from Core and the DLC.
 
