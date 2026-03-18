@@ -3,25 +3,25 @@
 
 	<!-- ==================== Shelf ==================== -->
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Shelf"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(2, 2)</drawSize>
 		</value>
-	</Operation>
+	</Operation> -->
 
 	<!-- ==================== Shelf Small ==================== -->
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="ShelfSmall"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(1, 1)</drawSize>
 		</value>
-	</Operation>
+	</Operation> -->
 
 	<!-- ==================== Bookcase ==================== -->
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Bookcase"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(2, 2)</drawSize>
@@ -40,11 +40,11 @@
 		<value>
 			<drawSize>(2, 2)</drawSize>
 		</value>
-	</Operation>
+	</Operation> -->
 
 	<!-- ==================== Bookcase Small ==================== -->
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="BookcaseSmall"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(1, 1)</drawSize>
@@ -63,6 +63,6 @@
 		<value>
 			<drawSize>(1, 1)</drawSize>
 		</value>
-	</Operation>
+	</Operation> -->
 
 </Patch>
