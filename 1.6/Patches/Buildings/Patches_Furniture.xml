@@ -3,21 +3,21 @@
 
 	<!-- ==================== Shelf ==================== -->
 
-	<!-- <Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Shelf"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(2, 2)</drawSize>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<!-- ==================== Shelf Small ==================== -->
 
-	<!-- <Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="ShelfSmall"]/graphicData/drawSize</xpath>
 		<value>
 			<drawSize>(1, 1)</drawSize>
 		</value>
-	</Operation> -->
+	</Operation>
 
 	<!-- ==================== Bookcase ==================== -->
 
