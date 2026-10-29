@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== All Eyes ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="Eyes_Red" or defName="Eyes_Gray"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Icons/Genes/Gene_Eyes</iconPath>
+		</value>
+	</Operation>
+
+	<!-- ==================== Red Eyes ==================== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GeneDef[defName="Eyes_Red"]</xpath>
+		<value>
+			<iconColor>(173, 37, 37)</iconColor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="Eyes_Red"]/renderNodeProperties</xpath>
+		<value>
+			<renderNodeProperties>
+				<li Class="PawnRenderNodeProperties_Eye">
+					<texPath>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Male</texPath>
+					<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Female</texPathFemale>
+					<rotDrawMode>Fresh, Rotting</rotDrawMode>
+					<parentTagDef>Head</parentTagDef>
+					<drawSize>1.0</drawSize>
+					<drawData>
+						<defaultData>
+							<layer>54</layer>
+							<offset>(0, 0, 0)</offset>
+						</defaultData>
+					</drawData>
+					<color>(173, 37, 37)</color>
+				</li>
+			</renderNodeProperties>
+		</value>
+	</Operation>
+
+	<!-- ==================== Gray Eyes ==================== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GeneDef[defName="Eyes_Gray"]</xpath>
+		<value>
+			<iconColor>(124, 124, 124)</iconColor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GeneDef[defName="Eyes_Gray"]/renderNodeProperties</xpath>
+		<value>
+			<renderNodeProperties>
+				<li Class="PawnRenderNodeProperties_Eye">
+					<texPath>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Male</texPath>
+					<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Female</texPathFemale>
+					<rotDrawMode>Fresh, Rotting</rotDrawMode>
+					<parentTagDef>Head</parentTagDef>
+					<drawSize>1.0</drawSize>
+					<drawData>
+						<defaultData>
+							<layer>54</layer>
+							<offset>(0, 0, 0)</offset>
+						</defaultData>
+					</drawData>
+					<color>(124, 124, 124)</color>
+				</li>
+			</renderNodeProperties>
+		</value>
+	</Operation>
+
+</Patch>

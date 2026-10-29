@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- ==================== Crematorium ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(3, 3)</drawSize>
+		</value>
+	</Operation>
+
+	<!-- ==================== Electric Smelter ==================== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ElectricSmelter"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>(3, 3)</drawSize>
+		</value>
+	</Operation>
+
+</Patch>
